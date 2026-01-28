@@ -152,7 +152,7 @@ const App: React.FC = () => {
           <div className="relative hidden lg:block">
             <div className="w-full aspect-square rounded-3xl overflow-hidden border border-slate-800 relative group">
               <img 
-                src="images/image copy.png" 
+                src="/images/image copy.png" 
                 alt="Profile" 
                 className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-110 group-hover:scale-100"
               />
