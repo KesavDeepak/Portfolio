@@ -152,7 +152,7 @@ const App: React.FC = () => {
           <div className="relative hidden lg:block">
             <div className="w-full aspect-square rounded-3xl overflow-hidden border border-slate-800 relative group">
               <img 
-                src="/images/image copy.png" 
+                src="https://upload.wikimedia.org/wikipedia/commons/a/a6/Shore_Temple_Mahabalipuram_India.jpg" 
                 alt="Profile" 
                 className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700 scale-110 group-hover:scale-100"
               />
@@ -161,7 +161,7 @@ const App: React.FC = () => {
                 <div className="flex items-center justify-between">
                   <div>
                     <p className="text-xs text-emerald-400 font-bold uppercase tracking-widest mb-1">Located in</p>
-                    <p className="text-lg font-bold">Mahabalipuram, Chen</p>
+                    <p className="text-lg font-bold">Mahabalipuram, Chengalpattu</p>
                   </div>
                   <MapPin className="text-emerald-400" />
                 </div>
@@ -205,8 +205,8 @@ const App: React.FC = () => {
              </h3>
              <div className="flex justify-center">
   <img
-    src="/images/image.png"
-    alt="Features illustration"
+    src="https://media.licdn.com/dms/image/v2/D5603AQGywEdWquxqRw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1696647214134?e=2147483647&v=beta&t=ljKsoh2SXSu_BD-i03wIwXRBuOaBoMZUtLlnZsnnJtE"
+       alt="Features illustration"
     className="w-full max-w-md"
   />
 </div>
