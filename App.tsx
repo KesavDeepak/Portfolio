@@ -294,12 +294,11 @@ const App: React.FC = () => {
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                   />
                   <div className="absolute inset-0 bg-slate-950/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-4">
-                    <button className="bg-emerald-500 text-slate-950 p-3 rounded-full hover:scale-110 transition-transform">
-                      <ExternalLink size={20} />
-                    </button>
-                    <button className="bg-white text-slate-950 p-3 rounded-full hover:scale-110 transition-transform">
-                      <Github size={20} />
-                    </button>
+                    
+                    <a href={project.link} className="bg-emerald-500 text-slate-950 p-3 rounded-full hover:scale-110 transition-transform"><Github size={20} /></a>
+                    
+                      
+                    
                   </div>
                 </div>
                 <div className="p-8">
